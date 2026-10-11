@@ -1,0 +1,12 @@
+.build/
+.swiftpm/
+.superpowers/
+*.xcodeproj
+*.ipa
+build/
+Payload/
+# head-unit certificate/key must never be committed
+*.pem
+*.key
+*.crt
+certs/
