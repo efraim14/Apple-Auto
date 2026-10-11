@@ -1,0 +1,25 @@
+name: AppleAuto
+options:
+  bundleIdPrefix: io.github.efraim14
+  deploymentTarget:
+    iOS: "12.0"
+targets:
+  AppleAuto:
+    type: application
+    platform: iOS
+    sources: [Sources]
+    info:
+      path: Info.plist
+      properties:
+        CFBundleDisplayName: Apple Auto
+        UILaunchStoryboardName: LaunchScreen
+        UIRequiresFullScreen: true
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.efraim14.appleauto
+        PRODUCT_NAME: AppleAuto
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
